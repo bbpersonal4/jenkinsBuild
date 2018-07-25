@@ -8,7 +8,7 @@ public class HelloController {
 
     @RequestMapping("/")
     public String index() {
-        return "Greetings from Spring Boot - Jenkins Branch Build Merge !!!!!";
+        return "Greetings from Spring Boot - Jenkins Branch Build Merge !!!";
     }
 
 }
