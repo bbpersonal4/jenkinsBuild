@@ -9,4 +9,5 @@ ENV JAR_FILE=target/gs-spring-boot-0.1.0.jar
 # Add the application's jar to the container
 ADD ${JAR_FILE} gs-spring-boot-0.1.0.jar
 
+# Run the jar file ...
 CMD ["java","-jar","gs-spring-boot-0.1.0.jar"]
